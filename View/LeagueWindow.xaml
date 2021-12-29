@@ -11,6 +11,12 @@
         <viewmodel:LeagueViewModel x:Key="LeagueViewModel"/>
     </Window.Resources>
     <Grid>
-        
+        <StackPanel Orientation="Horizontal" Margin="5"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    DataContext="{StaticResource ResourceKey=LeagueViewModel}">
+            <local:RosterControl Width="200" DataContext="{Binding ChicagoBulls}"/>
+            <local:RosterControl Width="200" DataContext="{Binding PhoenixSuns}"/>
+        </StackPanel>
     </Grid>
 </Window>

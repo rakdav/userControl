@@ -60,6 +60,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModel\LeagueViewModel.cs" />
+    <Compile Include="ViewModel\PlayerViewModel.cs" />
+    <Compile Include="ViewModel\RosterViewModel.cs" />
     <Compile Include="View\LeagueWindow.xaml.cs">
       <DependentUpon>LeagueWindow.xaml</DependentUpon>
     </Compile>
